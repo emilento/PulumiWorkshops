@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "deployment": {
+        "manifest": {
+            "time": "2023-10-12T13:57:11.6151542+02:00",
+            "magic": "98eac21badaa7c46e96ea42e48b43fe4bc5fa1f5bbacecd79acdf6fc655eef54",
+            "version": "v3.88.1"
+        },
+        "secrets_providers": {
+            "type": "service",
+            "state": {
+                "url": "https://api.pulumi.com",
+                "owner": "emilento",
+                "project": "azure-js",
+                "stack": "dev"
+            }
+        },
+        "resources": [
+        ]
+    }
+}

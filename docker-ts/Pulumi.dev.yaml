@@ -1,0 +1,8 @@
+config:
+  docker-ts:backendPort: "3000"
+  docker-ts:database: cart
+  docker-ts:frontendPort: "3001"
+  docker-ts:mongoHost: mongodb://mongo:27017
+  docker-ts:mongoPort: "27017"
+  docker-ts:nodeEnvironment: development
+  docker-ts:protocol: http://

@@ -1,0 +1,1 @@
+﻿return await Pulumi.Deployment.RunAsync<StaticWebsiteStack>();

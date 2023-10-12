@@ -1,0 +1,5 @@
+config:
+  azure-native:location: polandcentral
+  azure-csharp:environment: dev
+  azure-csharp:resource-group-name: rg-pulumi-dev-pc-01
+  azure-csharp:storage-account-name: sapulumidevpc01

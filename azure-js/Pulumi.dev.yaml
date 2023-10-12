@@ -1,0 +1,5 @@
+config:
+  azure-native:location: polandcentral
+  azure-js:environment: dev
+  azure-js:resource-group-name: rg-pulumi-dev-pc-01
+  azure-js:storage-account-name: sapulumidevpc01
