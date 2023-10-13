@@ -4,11 +4,16 @@
     <OutputType>exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <NoWarn>CS7022</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Pulumi" Version="3.*" />
     <PackageReference Include="Pulumi.AzureNative" Version="2.*" />
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
